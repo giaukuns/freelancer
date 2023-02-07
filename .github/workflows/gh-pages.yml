@@ -31,4 +31,4 @@ jobs:
           folder: .
           repositorty-name: giaukuns/freelancer
           target-folder: public
-          SINGLE_COMMIT: true
+          SINGLE_COMMIT: true 
