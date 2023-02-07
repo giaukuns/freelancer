@@ -24,7 +24,10 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BASE_BRANCH: main
           branch: gh-pages
           folder: .
           repositorty-name: giaukuns/freelancer
           target-folder: public
+          SINGLE_COMMIT: true
