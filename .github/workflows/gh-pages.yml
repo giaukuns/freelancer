@@ -25,6 +25,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: build
-          # repositorty-name: giaukuns/freelancer
+          repositorty-name: giaukuns/freelancer
           target-folder: public
