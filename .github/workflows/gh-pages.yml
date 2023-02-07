@@ -24,6 +24,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   /* 注意：这行是新加的 */
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BASE_BRANCH: development
           branch: main
