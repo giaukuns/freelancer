@@ -25,7 +25,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GH_DOCS }}
           BASE_BRANCH: development
           branch: main
           folder: .
