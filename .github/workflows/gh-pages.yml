@@ -26,5 +26,5 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-          repositorty-name: giaukuns/freelancer
+          # repositorty-name: giaukuns/freelancer
           target-folder: public
